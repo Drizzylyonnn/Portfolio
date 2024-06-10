@@ -1,0 +1,188 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(230, 87, 87);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.nav-section {
+    display: flex;
+    padding: 10px;
+    padding-top: 25px;
+    align-items: center;
+    gap: 550px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-brand {
+    font-size: 21px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.6s;
+} 
+
+.nav-brand:hover {
+    color: black;
+    transition: all 0.6s;
+}
+
+.nav-link {
+    display: inline;
+    padding-left: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: all 0.6s;
+
+}
+
+.nav-link:hover {
+    color: black;
+    transition: all 0.6s;
+}
+
+.hero-section {
+    width: 780px;
+    margin: 180px auto;
+}
+
+.about-me1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #bde1d8;
+}
+
+.about-me2, .about-me3 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #bde1d8;
+}
+
+.segun-david {
+    color: rgb(50, 40, 40);
+}
+
+.margin {
+    margin-bottom: 50px;
+}
+
+.skill {
+    width: 100%;
+}
+
+.real-container {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.skills-p {
+    font-size: 30px;
+    width: 80%;
+    color: #bde1d8;
+}
+
+.skills-heading {
+    width: 75%;
+    font-size: 40px;
+    color: white;
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+}
+
+.btn {
+    width: 113px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 10px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: pink;
+    color: white;
+    transition: all 0.5s;
+    border: none;
+}
+
+.aboutme-section {
+    width: 890px;
+    margin: 50px auto;
+}
+
+.aboutme-heading {
+    font-size: 45px;
+    font-weight: 400;
+    padding-bottom: 4px;
+    margin-left: 350px;
+}
+
+.aboutme {
+    color: rgb(28, 27, 27);
+    padding-top: px;
+    margin: 200px;
+
+}
+
+.aboutme-p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.hr {
+    color: black;
+}
+
+
+
+.resume-btn {
+   margin-top: 30px;
+   width: 140px;
+   font-size: 18px;
+   height: 50px;
+   background-color: rgb(235, 132, 132);
+   border: none;
+   transition: all 0.5s;
+}
+
+.resume-btn:hover {
+    background-color: rgb(230, 87, 87);
+    border: 1px solid black;
+    transition: all 0.5s;
+}
+
+.why-i-love-tech, .what-i-love-doing-outside-tech {
+    margin: 20px;
+    font-size: 20px;
+    padding-bottom: 9px;
+}
